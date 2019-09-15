@@ -1,10 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 html{
-    font-family: Roboto,Arial,sans-serif;
+  
     line-height: none !important;
 }
 .home-logo{
-    padding-left: 5px;
-    margin: 7px;
+    padding-left: 3px;
+    margin: 9px;
 }
 
 .home-find button{
@@ -21,7 +22,7 @@ html{
 
 .contenido-bottom{
     margin-top: 8px;
-    margin-bottom: 24px;
+    margin-bottom: 21px;
     line-height: 1.2;
 }
 .contenido-bottom a{
@@ -36,17 +37,19 @@ html{
 .contenido-title{
     margin-bottom: 0px;
     padding-left: 4px !important;
+    padding-right: 0px !important;
 
 }
 .contenido-title span{
     font-size: 0.75rem;
-  
+    font-family: 'Roboto', sans-serif;
 }
 h3{
-    font-size: 0.93rem !important;
+    font-size: 0.9rem !important;
     font-weight: bold;
     margin-bottom: 0px !important;
     line-height: 1.25;
+    font-family: 'Roboto', sans-serif;
 }
 .anuncio{
 padding: 2px 4px;
@@ -61,4 +64,12 @@ background-color:
     margin-top: 9px;
 margin-left: 4px;
 }
-
+.menu-icon{
+    font-size: 0.7rem;
+    padding-bottom: 5px;
+    background-color: white;
+    padding-top: 7px;
+}
+.menu-icon img{
+    filter: invert(50%); 
+}
