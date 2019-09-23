@@ -3,6 +3,10 @@ html{
   
     line-height: none !important;
 }
+body{
+    font-family: 'Roboto', arial, sans-serif;
+
+}
 .home-logo{
     padding-left: 3px;
     margin: 9px;
@@ -72,4 +76,40 @@ margin-left: 4px;
 }
 .menu-icon img{
     filter: invert(50%); 
+}
+.xl-content{
+    margin-top: 55px;
+}
+.xl-lateral-bar{
+background-color: #f5f5f5;
+height: 100vh;
+width: 240px;
+
+}
+.lg-header{
+    box-shadow: 0 0 4px 4px #f3f3f3;
+}
+.xl-lateral-bar .list-group-item
+{
+    border: none;
+    height: 40px;
+font-size: 14px;
+font-weight: 400;
+color:#111111;
+padding: 0 24px;
+background-color: inherit;
+}
+.xl-lateral-bar .list-group-item.active {
+    background-color: inherit;
+    color: inherit;
+    pointer-events: none;
+    font-weight: 700;
+}
+.xl-lateral-bar .list-group {
+    padding: 12px 0;
+    border-bottom: 2px solid 
+#eeeeee;
+}
+a{
+    text-decoration: none;
 }
