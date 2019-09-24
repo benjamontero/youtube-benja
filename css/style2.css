@@ -1,0 +1,37 @@
+.xs-header{
+    background: red;
+    height: 48px;
+
+}
+.xs-logo {
+  height: 48px;
+  background: blueviolet;
+ 
+}
+.xs-user{
+    background: blueviolet;
+    height: 48px;
+}
+
+.xs-card{
+    height: 202px;
+    width: 100%;
+    background: blue;
+
+}
+
+.xs-navbar-icon{
+    height: 48px;
+    background: grey;
+
+}
+
+.xs-banner{
+    height: 263px;
+    background: green;
+}
+
+.xs-aside{
+    height: 100vh;
+    background: chocolate;
+}
