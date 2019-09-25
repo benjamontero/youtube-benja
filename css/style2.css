@@ -99,9 +99,13 @@ line-height: 2rem;
 
 
 @media (min-width: 992px) { 
+    .xs-header{
+        height: 56px;
+    }
     .xs-card
     {
         height: 223px;
+        margin-right:2px;
     }
 
     .contenido-title{
