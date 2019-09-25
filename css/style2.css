@@ -15,12 +15,16 @@
     background: grey;
 
 }
+.xs-logo{
+    margin-top: 3px;
+}
 .xs-banner{
     height: 263px;
     
 }
 .xs-user{
-    margin-top: 11px;
+    margin-top: 5px;
+
     
 }
 .img-find{
@@ -96,7 +100,10 @@ font-weight: 500;
 max-height: 2rem;
 line-height: 2rem;
 }
-
+.hamburguesa{
+    margin-left: 14px ; 
+    margin-top: 4px; 
+}
 
 @media (min-width: 992px) { 
     .xs-header{
