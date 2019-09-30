@@ -43,9 +43,7 @@ margin-top: 4px;
 }
 .contenido-title{
     margin-bottom: 0px;
-    padding-left: 4px !important;
-    padding-right: 0px !important;
-    margin-left: -25px !important;
+    padding: 0px !important;
 
 }
 .contenido-title p {
@@ -116,13 +114,15 @@ line-height: 2rem;
     }
 
     .contenido-title{
-    margin-left: 12px !important;
+    
     padding: 2px;
     }
 
     .contenido-bottom{
         margin-bottom: 21px;
         line-height: 1.2;
+        margin-right: 0 !important;
+        margin-left: 0 !important;
     }
     .margin-contenido{
         margin-left: 30px !important;
@@ -144,6 +144,7 @@ line-height: 2rem;
         flex-direction: row;
         justify-content: flex-end;
     }
+    
 
     .xs-user .row{
         margin: 0;
