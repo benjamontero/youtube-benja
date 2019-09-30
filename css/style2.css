@@ -110,14 +110,11 @@ line-height: 2rem;
     .xs-card
     {
         height: 223px;
-        margin-right:2px;
+        padding: 1px !important;
     }
-
     .contenido-title{
-    
     padding: 2px;
     }
-
     .contenido-bottom{
         margin-bottom: 21px;
         line-height: 1.2;
