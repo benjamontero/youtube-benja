@@ -31,6 +31,7 @@
 margin-top: 4px;
 }
 
+
 .contenido-bottom{
     margin-top: 12px;
     margin-bottom: 21px;
@@ -102,6 +103,15 @@ line-height: 2rem;
     margin-left: 10px ; 
     margin-top: 4px; 
 }
+.bibliteca-perfil{
+    padding-right: 100px !important;
+    padding-left: 31px !important;
+    padding-top: 80px !important;
+    font-size: 0.9rem !important;
+}
+xs-contenido{
+    
+}
 
 @media (min-width: 992px) { 
     .xs-header{
@@ -142,8 +152,28 @@ line-height: 2rem;
         justify-content: flex-end;
     }
     
+    .xs-header{
+        position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  z-index: 2;
+  width: 100%; /* Full width */
+    }
+    .xs-aside{
+        position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  height: 100vh; /* Full width */  
+    }
+    .xs-content{
+        position: fixed; /* Set the navbar to fixed position */
+        top: 60px; /* Position the navbar at the top of the page */
+        z-index: 1;
+    }
 
     .xs-user .row{
         margin: 0;
     }
+}
+
+.menu-iconL img{
+    filter: opacity(60%)
 }
